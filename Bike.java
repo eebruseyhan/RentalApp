@@ -42,7 +42,7 @@ public class Bike extends Vehicle {
 
             case 2:
                 System.out.println();
-                Bike bike2 = new Bike("Carraro", "Dag Bisikleti", 2022, 20, 5.0);
+                Bike bike2 = new Bike("Carraro", "Dağ Bisikleti", 2022, 20, 5.0);
                 hourFe = 5.0;
                 bike2.showInfo("Carraro", "Dağ Bisikleti", 2022, 20, 5.0);
                 break;

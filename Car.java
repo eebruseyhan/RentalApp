@@ -34,7 +34,7 @@ public class Car extends Vehicle
         System.out.println("Araba listesi:");
         System.out.println("1)BMW M3");
         System.out.println("2)Audi A3");
-        System.out.print("Hakkında bilgi alamk istediğiniz aracın numarasını giriniz:");
+        System.out.print("Hakkında bilgi almak istediğiniz aracın numarasını giriniz:");
         listNumber=keyboard.nextInt();
     }
     
@@ -111,7 +111,7 @@ public class Car extends Vehicle
         
             keyboard.nextLine();
             System.out.println();
-            System.out.print("Bir daha denemek ister misiniz? (Evet için 'E/e' Hayir icin 'H/h'): ");
+            System.out.print("Bir daha denemek ister misiniz? (Evet için 'E/e' Hayır için 'H/h'): ");
             response=keyboard.next();
             System.out.println();
         }while(response.equalsIgnoreCase("e"));

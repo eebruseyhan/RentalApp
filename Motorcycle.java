@@ -16,7 +16,7 @@ public class Motorcycle extends Vehicle
     
     public Motorcycle(String brand, String model, int year, int speed, double hourFe)
     {
-        super(brand,model,year,speed,hourFe);
+        super(brand,model,year,speed,hourFe); 
     }
 
     @Override
@@ -109,7 +109,7 @@ public class Motorcycle extends Vehicle
         
             keyboard.nextLine();
             System.out.println();
-            System.out.print("Bir daha denemek ister misiniz? (Evet için 'E/e' Hayır icin 'H/h'): ");
+            System.out.print("Bir daha denemek ister misiniz? (Evet için 'E/e' Hayır için 'H/h'): ");
             response=keyboard.next();
             System.out.println();
         }while(response.equalsIgnoreCase("e"));
@@ -202,14 +202,14 @@ public class Motorcycle extends Vehicle
             System.out.println("Elektrikli scooter listesi:");
             System.out.println("1)Onvo OV-RX1"); 
             System.out.println("2)Xiaomi 4 Ultra");
-            System.out.print("Hakkında bilgi almak istediğiniz scooterin numarasını giriniz:");
+            System.out.print("Hakkında bilgi almak istediğiniz scooterın numarasını giriniz:");
             number=keyboard.nextInt();
         }
         
         public void scooterInfo()
         {                    
             Motorcycle motor=new Motorcycle("","",0,0,0);
-            System.out.println("Kiralanacak bütün elektrikli scooterlerin başlangıç ücreti "+startingFee+" TL dir");
+            System.out.println("Kiralanacak bütün elektrikli scooterlerın başlangıç ücreti "+startingFee+" TL dir");
             
             switch(number)
             {

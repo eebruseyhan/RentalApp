@@ -28,9 +28,9 @@ public abstract class Vehicle
     public void showInfo(String brand, String model, int year, int speed, double hourFe){
         System.out.println("Marka: " + brand);
         System.out.println("Model: " + model);
-        System.out.println("Yil: " + year);
-        System.out.println("En yuksek hiz: " + speed);
-        System.out.println("Saatlik fiyati: "+ hourFe);
+        System.out.println("Yıl: " + year);
+        System.out.println("En yuksek hız: " + speed);
+        System.out.println("Saatlik fiyatı: "+ hourFe);
     }
 
     public String getBrand(){
